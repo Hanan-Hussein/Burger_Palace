@@ -77,3 +77,17 @@ ul{
     padding-right: 246px;
     padding-top: 12px;
 }
+#brandname{
+    /* padding-top: 15px;
+    height: 70px;
+    padding-left: 15px;
+    margin-bottom: 10px; */
+    font-family: 'Lobster', cursive; 
+    padding-right: 478px;
+    font-size: 20px;
+}
+
+span.orange{
+    color: #F6B400;
+    font-size: 20px;
+}

@@ -5,20 +5,23 @@
     text-decoration: none;
     font-family: 'Poppins';
 }
-
+.nav-bar{
+    overflow: auto;
+}
 .nav-bar a {
     text-decoration: none;
     display: flex;
     text-align: center;
-    padding: 14px 50px;
+    padding: 30px 40px 14px;
     color: black;
 }
 
 div.nav-bar{
-    display: flex;
+    /* display: flex; */
     font-weight: 700;
     font-size: 20px;
     float: right;
+    display: flex;
     font-family: 'Poppins';
 }
 a.active{
@@ -28,7 +31,19 @@ a.active{
 .design{
     margin-right: 60px;
 }
-li{
+img.scaling{
+    width: 25px;
+    height: 20;
+}
+li {
     list-style-type:none;
+    display: flex;
+    /* display: inline; */
+    display: inline-block;
+
+}
+ul{
+    list-style-type: none;
+  
 
 }

@@ -10,15 +10,23 @@ div.logo{
 float: right;
 display: flex;
 }
-.nav-bar a {
-    text-decoration: none;
+.nav{
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.nav a {
+    text-decoration: none;
+    /* display: flex; */
     text-align: center;
     padding: 30px 35px 14px;
     color: black;
 }
 
-div.nav-bar{
+div.nav{
     /* display: flex; */
     font-weight: 700;
     font-size: 20px;
@@ -34,13 +42,17 @@ a.active{
     margin-right: 60px;
 }
 img.scaling{
+    right: 7%;
     width: 25px;
-    height: 20;
+    position: absolute;
+    top: 8%;
 }
 .resize{
     padding-top: 15px;
     height: 70px;
     padding-left: 15px;
+    position: relative;
+    top: 25px;
     margin-bottom: 10px;
 }
 #features li {
@@ -194,24 +206,26 @@ p.dine{
     background-color: #E1EBE6;
 }
 .offers-img{
-    height: 100px;
-    width: 100px;
+    width: 80px;
     object-position: center;
+    padding:10px;
+
 }
 .offer-text{
     margin-top: 10px;
 }
 .menuspan{
-    color: orange;
+    color: #F6B400;
 }
 .menutext{
     text-align: center;
     justify-content: center;
     font-size: 20px;
-    text-decoration: underline 6px orange;
+    text-decoration: underline 6px #F6B400;
     text-underline-offset: 5px;
     margin-bottom: 12px;
     display: block;
+    padding:20px;
 
 }
 .mobileapps{
@@ -263,7 +277,7 @@ font-size: 40px;
 }
 .applestore{
     height: 266px;
-    width: 343px;
+    width: 212px;
     font-size: 20px;
     padding-left:16px;
     margin-top: 3px;
@@ -312,8 +326,8 @@ display: flex;
 }
 .newsletterbtn{
     position: absolute;
-    top: 432%;
-    right: 3%;
+    top: 507%;
+    right: 4%;
     border:none;
     background-color: #F6B400;
     width: 150px;
@@ -402,7 +416,7 @@ display: flex;
 .sign{
     position: relative;
     background-color: #E1EBE6;
-    padding: 10px 10px 10px;
+    padding: 1px 9px 18px 14px;
     width: 0%;
     height: 0%;
 
@@ -410,6 +424,8 @@ display: flex;
 .two{
     color: #000000;
     font-weight: 700px;
+    padding: 0px
+
 }
 .sign{
     color: green;
@@ -432,4 +448,37 @@ display: flex;
 .lastpart-color{
     background-color: #FFF;
     color: black;
+}
+.doubledecker{
+    background-color: #E1EBE6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.doubledeckertext{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: start;
+
+}
+.doubledeckerimage img{
+width: 550px;
+}
+.deckercolor{
+    color: #F6B400;
+}
+.double{
+    font-size: 40px;
+}
+.decker{
+    font-size: 40px;
+}
+.explosion{
+color: gray;
 }

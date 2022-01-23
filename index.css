@@ -43,10 +43,9 @@ img.scaling{
     padding-left: 15px;
     margin-bottom: 10px;
 }
-li {
+#features li {
     list-style-type:none;
-    /* display: flex; */
-    /* display: inline; */
+   
     display: inline-block;
 
 }
@@ -268,4 +267,81 @@ font-size: 40px;
     font-size: 20px;
     padding-left:16px;
     margin-top: 3px;
+}
+.footer{
+    background-color: #E1EBE6;
+}
+.footeraction{
+    /* margin-top: 20px; */
+    display: flex;
+}
+
+#footer{
+    margin-top:33px;
+    font-family: 'Lobster', cursive; 
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
+
+}
+
+.footerlist{
+    margin-left: 300px;
+}
+#footer-list li{ 
+    padding: 5px 5px 5px;
+
+}
+.newsletter{
+    margin-left: 300px;
+    font-size: 21px;
+    margin-top: 21px;
+}
+.form{
+    padding-top: 65px;
+margin-left: -182px;
+display: flex;
+
+
+}
+.inputdesign{
+    display: flex;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+.newsletterbtn{
+    position: absolute;
+    top: 293%;
+    right: 3%;
+    border:none;
+    background-color: #F6B400;
+    width: 150px;
+    height: 40px;
+
+}
+.last-part{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 225px;
+}
+.social-icon{
+    width: 36px;
+    list-style: none;
+}
+.un-list{
+    display: flex;
+}
+.social-icon img{
+    width: 19px;
+    list-style: none;
+}
+.copyright{
+    justify-content: left;
+}
+.designer{
+    justify-content: left;
 }

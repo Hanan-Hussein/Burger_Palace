@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Poppins';
+    overflow: visible;
 }
 div.logo{
 float: right;
@@ -44,7 +45,7 @@ img.scaling{
 }
 li {
     list-style-type:none;
-    display: flex;
+    /* display: flex; */
     /* display: inline; */
     display: inline-block;
 
@@ -131,4 +132,72 @@ p.dine{
     color: #FFFF;
     background-color: #F6B400;
     border: none;
+}
+.box{
+     /* margin-top: 5rem;
+    height:auto;
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0.5rem;
+    flex-wrap: nowrap; */
+    border: 3px solid gray;
+    border: 3px solid gray; 
+    height: fit-content;
+    width: 250px;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+.page-design-2{
+    border: 3px solid gray; 
+    height: fit-content;
+    width: 360px;
+    margin-top: 168px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 3px solid gray;
+}
+.page3{
+    border: 3px solid gray; 
+    height: fit-content;
+    width: 250px;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 3px solid gray;
+
+    }
+    .offer{
+        display: flex;
+        justify-content: space-around;
+        background-color: #E1EBE6;
+        height: 600px;
+        flex-direction: row;
+        object-position: center;
+    }
+   
+.offerbackground{
+    background-color: #E1EBE6;
+}
+.offers-img{
+    height: 100px;
+    width: 100px;
+    object-position: center;
+}
+.offer-text{
+    margin-top: 10px;
 }
